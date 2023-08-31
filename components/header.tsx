@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google';
 import Link from 'next/link';
 import { UserButton } from '@clerk/nextjs';
 import { Button } from './ui/button';
+import { ModeToggle } from './mode-toggle';
 
 const font = Poppins({ weight: '600', subsets: ['latin'] });
 
@@ -17,6 +18,7 @@ const Header = () => {
         </Link>
       </div>
       <div className='flex items-center gap-x-3'>
+        <ModeToggle />
         <Button size='sm'>
           Upgrade
           <Sparkles className='h-4 w-4 fill-white text-white ml-2' />
