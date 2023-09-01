@@ -9,8 +9,8 @@ import { cn } from '@/lib/utils';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'my-interviewer',
-  description: 'my-interviewer',
+  title: 'my-helper',
+  description: 'my-helper',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
