@@ -1,7 +1,9 @@
-import { Button } from '@/components/ui/button';
-
 const DashBoard = () => {
-  return <Button variant={'destructive'} />;
+  return (
+    <div>
+      <p>Dashboard Page (protected)</p>
+    </div>
+  );
 };
 
 export default DashBoard;
