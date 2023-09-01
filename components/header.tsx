@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className='flex items-center p-4'>
       <Button variant={'ghost'} size={'icon'} className='md:hidden'>
-        <Menu />
+        <MobileSidebar />
       </Button>
       <div className='flex w-full justify-end items-center gap-x-2'>
         <ModeToggle />
